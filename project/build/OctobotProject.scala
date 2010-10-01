@@ -1,6 +1,6 @@
 import sbt._
 
-class OctobotProject(info: ProjectInfo) extends DefaultWebProject(info) {
+class OctobotProject(info: ProjectInfo) extends DefaultProject(info) {
   // repositories
   val scalatoolsSnapshot = "Scala Tools Snapshot" at "http://scala-tools.org/repo-snapshots/"
   val scalatoolsRelease = "Scala Tools Release" at "http://scala-tools.org/repo-releases/"
